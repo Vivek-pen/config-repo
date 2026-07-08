@@ -10,7 +10,8 @@ spring:
   datasource:
     url: jdbc:mysql://localhost:3306/order_prod
     username: root
-    password: 
+    password: Welcome@1234$
+    driver-class-name: com.mysql.cj.jdbc.Driver
   jpa:
     hibernate:
       ddl-auto: update
